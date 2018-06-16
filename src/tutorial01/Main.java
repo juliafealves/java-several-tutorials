@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Main {
     private static ProductController productController;
 
+    /**
+     * Execute the application.
+     * @param args
+     */
     public static void main(String[] args){
         productController = new ProductController();
 
@@ -24,6 +28,7 @@ public class Main {
                 } catch (Exception exception){
                     System.err.println(exception.getMessage());
                     System.err.flush();
+                    System.out.println();
                 }
 
                 System.out.print("Do you want to add any more products? (Y/N)");

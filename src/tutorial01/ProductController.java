@@ -34,7 +34,7 @@ public class ProductController {
 
         for (Product product : this.products)
             products.append(index++)
-                    .append(" - ")
+                    .append(". ")
                     .append(product)
                     .append(System.lineSeparator());
 
